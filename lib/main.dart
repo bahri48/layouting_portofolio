@@ -296,10 +296,10 @@ class MyHomePage extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple,
+                      backgroundColor: Color(0xFFd32f2f),
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(
-                        horizontal: 100,
+                        horizontal: 40,
                         vertical: 15,
                       ),
                       textStyle: const TextStyle(
@@ -311,7 +311,7 @@ class MyHomePage extends StatelessWidget {
                       ),
                       elevation: 5,
                     ),
-                    child: const Text("Next"),
+                    child: const Text("Lampiran"),
                   ),
                 ),
               ),

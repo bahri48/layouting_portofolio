@@ -4,14 +4,12 @@ class AppTheme {
   // Skema warna custom
   static final ColorScheme colorScheme = ColorScheme(
     brightness: Brightness.light,
-    primary: Colors.deepPurpleAccent, // ungu
+    primary: Color(0xFFd32f2f), // ungu
     onPrimary: Colors.white,
     secondary: Color(0xFFFFC107), // kuning
     onSecondary: Colors.black,
     error: Colors.red,
     onError: Colors.white,
-    background: Color(0xFFF5F5F5),
-    onBackground: Colors.black87,
     surface: Colors.white,
     onSurface: Colors.black,
   );
