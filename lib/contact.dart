@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'next_page.dart';
+import 'grid_layout.dart';
 import 'signature.dart';
 
 class Contact extends StatefulWidget {
@@ -172,7 +172,9 @@ class _ContactState extends State<Contact> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const NextPage()),
+                      MaterialPageRoute(
+                        builder: (context) => const GridLayout(),
+                      ),
                     );
                   },
                   style: ElevatedButton.styleFrom(
@@ -191,7 +193,7 @@ class _ContactState extends State<Contact> {
                     ),
                     elevation: 5, // efek bayangan
                   ),
-                  child: const Text("SUBMIT"),
+                  child: const Text("PRODUK"),
                 ),
               ),
               const SizedBox(height: 20),
@@ -220,7 +222,7 @@ class _ContactState extends State<Contact> {
                     ),
                     elevation: 5, // efek bayangan
                   ),
-                  child: const Text("Product"),
+                  child: const Text("SIGNATURE"),
                 ),
               ),
             ],
